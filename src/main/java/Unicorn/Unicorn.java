@@ -1,4 +1,4 @@
-package org.example;
+package Unicorn;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

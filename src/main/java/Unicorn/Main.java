@@ -1,13 +1,13 @@
-package org.example;
+package Unicorn;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
-        //Unicorn unicorn1 = new Unicorn("Farid", 39, 66);
-        //Unicorn unicorn2 = new Unicorn("Gaggy", 23, 55);
-        //Unicorn unicorn3 = new Unicorn("Phuuby", 19, 23);
+        Unicorn unicorn1 = new Unicorn("Farid", 39, 66);
+        Unicorn unicorn2 = new Unicorn("Gaggy", 23, 55);
+        Unicorn unicorn3 = new Unicorn("Phuuby", 19, 23);
 
         UnicornDAO unicornDAO = new UnicornDAO();
 
@@ -30,7 +30,7 @@ public class Main {
 
         //READ METHOD - GETS ALL UNICORNS FROM DB
         //_______________________________________
-        //unicornDAO.getAllUnicorns();
+        unicornDAO.getAllUnicorns();
 
 
     }
