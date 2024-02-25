@@ -54,8 +54,8 @@ public class HibernateConfig {
 
     private static void getAnnotationConfiguration(Configuration configuration) {
         // add annotated classes
-        configuration.addAnnotatedClass(Unicorn.class);
-        configuration.addAnnotatedClass(UnicornDAO.class);
+//        configuration.addAnnotatedClass(Unicorn.class);
+//        configuration.addAnnotatedClass(UnicornDAO.class);
 
     }
 
