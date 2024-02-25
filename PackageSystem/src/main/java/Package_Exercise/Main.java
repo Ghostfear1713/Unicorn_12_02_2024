@@ -1,5 +1,8 @@
 package Package_Exercise;
 
+import Package_Exercise.dao.PackageDAO;
+import Package_Exercise.model.Package;
+
 public class Main {
     public static void main(String [] args){
 

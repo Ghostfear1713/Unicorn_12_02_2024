@@ -1,5 +1,7 @@
-package Package_Exercise;
+package Package_Exercise.config;
 
+import Package_Exercise.model.Package;
+import Package_Exercise.dao.PackageDAO;
 import jakarta.persistence.EntityManagerFactory;
 import lombok.NoArgsConstructor;
 import org.hibernate.SessionFactory;

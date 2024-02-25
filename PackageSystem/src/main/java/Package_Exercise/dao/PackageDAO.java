@@ -1,5 +1,7 @@
-package Package_Exercise;
+package Package_Exercise.dao;
 
+import Package_Exercise.config.HibernateConfig;
+import Package_Exercise.model.Package;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 

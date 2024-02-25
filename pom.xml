@@ -10,6 +10,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>Week2JPA-OneToRelations</module>
+        <module>OneToOneExercise</module>
+        <module>PackageSystem</module>
     </modules>
 
     <properties>

@@ -1,10 +1,13 @@
-package Package_Exercise;
+package Package_Exercise.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
+
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Getter
@@ -35,8 +38,15 @@ public class Package {
         DELIVERED
     }
 
+    @OneToMany(mappedBy = "shipmentPackage", cascade = CascadeType.ALL)
+    private Set<Shipment> shipments = new HashSet<>();
 
-
+    public void addShipment(Shipment shipment){
+        //Adding the shipment to our list "shipments" IF the shipment is not null
+        if(shipment != null){
+            shipments.add(shipment);
+        }
+    }
 
 
 }
