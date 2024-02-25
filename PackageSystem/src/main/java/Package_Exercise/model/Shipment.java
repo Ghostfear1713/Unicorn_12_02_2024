@@ -19,6 +19,7 @@ public class Shipment {
 
 
     @ManyToOne
+    //shipmentPackage functions as an ID for the package
     private Package shipmentPackage;
 
     @ManyToOne
